@@ -17,8 +17,3 @@ function dataHandling(input) {
 }                           
 
 dataHandling(input);
-
-//function menerima input dari variabel input
-//input menggunakan splice method
-//mencetak hasil input
-//input menggunakan splice
