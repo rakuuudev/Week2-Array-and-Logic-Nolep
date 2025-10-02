@@ -6,13 +6,12 @@ function dataHandling() {
                     ["0004", "Bintang Senjaya", "Martapura", "6/4/1970", "Berkebun"]
                 ];
 
-    for (let i = 0; i < input.length; i++) {
-        console.log("Nomor ID: " + input[i][0]);
-        console.log("Nama Lengkap: " + input[i][1]);
-        console.log("TTL: " + input[i][2], input[i][3]);
-        console.log("Hobi: " + input[i][4]);
-        console.log("--------");
+  for (let i = 0; i < input.length; i++) {
+        for (let j = 0; j < input[i][j]; j++) {
+             console.log(`\nNomor ID:  ${input[i][0]} \nNama: ${input[i][1]} \nTTL: ${input[i][2]} ${input[i][3]} \nHobi: ${input[i][4]}`);
+        }     
     }
+
 
 }
 dataHandling();
